@@ -1,0 +1,28 @@
+{
+	"name":        "paptamas/kohana-redis",
+	"type":        "kohana-module",
+	"description": "Redis module for Kohana based on phpredis",
+	"homepage":    "https://github.com/paptamas/kohana-redis",
+	"license":     "MIT",
+	"keywords":    ["kohana", "framework", "redis"],
+	"authors": [
+		{
+			"name":     "Pap Tamas",
+			"email":    "paptamas@gmail.com",
+			"homepage": "https://github.com/paptamas",
+			"role":     "developer"
+		}
+	],
+	"support": {
+		"issues":   "https://github.com/paptamas/kohana-redis/issues"
+	},
+	"require": {
+		"composer/installers": 	"~1.0",
+		"php":                 	">=5.3.3"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-3.3/develop": "3.3.x-dev"
+		}
+	}
+}
